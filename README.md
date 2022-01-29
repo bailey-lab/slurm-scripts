@@ -10,6 +10,10 @@ For additional information on using Slurm, consult Brown University's high
 performance computing cluster documentation found
 [here](https://docs.ccv.brown.edu/oscar/submitting-jobs/batch).
 
+## Scripts
+
+- `copy-dir`: copy a large directory from one location to another.
+- `mv-dir`: move a large directory from one location to another.
 
 ## Contributing
 
