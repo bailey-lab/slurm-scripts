@@ -13,6 +13,9 @@ performance computing cluster documentation found
 ## Scripts
 
 - `copy-dir`: copy a large directory from one location to another.
+- `download`: download data to a directory using `wget`.
+- `download-array`: download data to a directory using `wget` via a job array.
+	Each file is downloaded as part of a separate job.
 - `mv-dir`: move a large directory from one location to another.
 
 ## Contributing
