@@ -10,7 +10,8 @@
 # Specify a job name:
 #SBATCH --job-name=copy-dir
 
-# Notify details about job
+# Email details about job:
+#SBATCH --mail-user=example@mail.com
 #SBATCH --mail-type=ALL
 
 # Run a command

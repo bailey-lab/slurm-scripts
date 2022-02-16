@@ -10,7 +10,8 @@
 # Specify a job name:
 #SBATCH --job-name=download-data
 
-# Notify details about job
+# Email details about job:
+#SBATCH --mail-user=example@mail.com
 #SBATCH --mail-type=ALL
 
 # Define variables
