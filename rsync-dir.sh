@@ -8,15 +8,11 @@
 #SBATCH --mem=4G
 
 # Specify a job name:
-#SBATCH --job-name=copy-dir
+#SBATCH --job-name=rsync-dir
 
 # Email details about job:
 #SBATCH --mail-user=example@mail.com
 #SBATCH --mail-type=ALL
 
 # Run a command
-cp -r <source/dir/path> <destination/dir/path>
-
-# NOTE: Consider using `rsync` as it has advantages in terms of restarting as
-# well as being able to control more fine grained permissions.
-# rsync -avz <source/dir/path> <destination/dir/path>
+rsync -avz <source/dir/path> <destination/dir/path>
