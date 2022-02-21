@@ -16,3 +16,8 @@
 
 # Run a command
 cp -r <source/dir/path> <destination/dir/path>
+
+#NOTE:  consider rsync as well as it has advantages
+# in terms of restarting as well as being able more 
+#fine grained control permissions
+#rsync -avz <source>  <destination>
