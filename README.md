@@ -14,7 +14,8 @@ performance computing cluster documentation found
 
 - [dir-utils](dir-utils): Scripts for managing directories.
 - [download](download): Scripts for downloading data.
-- [MIPTools](MIPTools): Scripts for running MIPTools commands.
+- [MIPTools](MIPTools): Scripts for running
+  [MIPTools](https://github.com/bailey-lab/MIPTools) commands.
 
 ## Contributing
 
