@@ -10,13 +10,10 @@ For additional information on using Slurm, consult Brown University's high
 performance computing cluster documentation found
 [here](https://docs.ccv.brown.edu/oscar/submitting-jobs/batch).
 
-## Scripts
+## Folders
 
-- `copy-dir`: copy a large directory from one location to another.
-- `download`: download data to a directory using `wget`.
-- `download-array`: download data to a directory using `wget` via a job array.
-	Each file is downloaded as part of a separate job.
-- `mv-dir`: move a large directory from one location to another.
+- [dir-utils](dir-utils): Scripts for managing directories.
+- [download](download): Scripts for downloading data.
 
 ## Contributing
 
