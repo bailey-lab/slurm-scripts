@@ -14,20 +14,20 @@
 #SBATCH --mail-type=ALL
 
 # Path to container
-miptools="miptools_v0.4.0.sif"
+miptools=/nfs/jbailey5/baileyweb/bailey_share/software/MIPTools/download/miptools_v0.4.0.sif
 
 # Paths to bind to container
-project_resources="test-data/DR1_project_resources"
-species_resources="test-data/pf_species_resources"
-wrangler_dir="test-data/wrangler"
-variant_dir="test-data/variant"
+project_resources=test-data/DR1_project_resources
+species_resources=test-data/pf_species_resources
+wrangler_dir=test-data/wrangler
+variant_dir=test-data/variant
 
 # Freebayes options
-bam_dir="/opt/analysis/padded_bams"
-fastq_dir="/opt/analysis/padded_fastqs"
-output_vcf="/opt/analysis/variants.vcf.gz"
-targets_file="/opt/project_resources/targets.tsv"
-settings_file="/opt/analysis/settings.txt"
+bam_dir=/opt/analysis/padded_bams
+fastq_dir=/opt/analysis/padded_fastqs
+output_vcf=/opt/analysis/variants.vcf.gz
+targets_file=/opt/project_resources/targets.tsv
+settings_file=/opt/analysis/settings.txt
 fastq_padding=20
 
 # To access python help page run:
